@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*
+gray #E8E8ED white #FFFFFF
+<i class="bi bi-apple"></i>   <i class="bi bi-bag"></i>    <i class="bi bi-search"></i>                   */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color:white;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+nav{
+    display:flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0,0.7);
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: sticky;
+}
+.logo i{
+    color:#FFFFFF;
+}
+ nav a{
+    color:#D3D3D3;
+    text-decoration: none;
+    margin:20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar a{
+    font-size: 13px;
+}
+nav a:hover{
+    color: #FFFFFF;
+}
+.nav-sub-menu{
+    color: #FFFFFF;
+    width: 60%;
+    display: flex;
+    margin: auto;
+    display: none;
+}
+.nav-sub-menu ul{
+    list-style: none;
+}
+.nav-sub-menu ul li{
+    margin: 30px;
+}
+.nav-sub-menu :first-child{
+    color: #fff;
+    font-size:25px;
+    line-height: 5px;
+    font-weight: bold;
+}
+.nav-sub-menu ul{
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 0px;
+}
+.nav-sub-menu .list-head{
+    color:gray;
+    font-size: 13px;
+}
+
+
+
+
+
+.offers{
+    background-color:#0D0D0D;
+    font-size:15px;
+    color:#FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+.offers span a{
+    color :#1560BD;
+    text-decoration: none;
 }
