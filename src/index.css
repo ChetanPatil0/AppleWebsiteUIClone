@@ -9,27 +9,28 @@ body{
     background-color:white;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+/* Nav.js Component CSS */
 header{
     width: 100%;
     height: auto;
-    background-color: black;
+    position: fixed;
+    z-index: 3;
 }
 nav{
     display:flex;
     justify-content: center;
-    background-color: rgba(0, 0, 0,0.7);
     font-size: 17px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left:5px;
     padding-right: 5px;
-    position: sticky;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 .logo i{
     color:#FFFFFF;
 }
  nav a{
-    color:#D3D3D3;
+    color:black;
     text-decoration: none;
     margin:20px;
 }
@@ -37,50 +38,32 @@ nav{
 .navbar a{
     font-size: 13px;
 }
-nav a:hover{
-    color: #FFFFFF;
-}
-.nav-sub-menu{
-    color: #FFFFFF;
-    width: 60%;
-    display: flex;
-    margin: auto;
-    display: none;
-}
-.nav-sub-menu ul{
-    list-style: none;
-}
-.nav-sub-menu ul li{
-    margin: 30px;
-}
-.nav-sub-menu :first-child{
-    color: #fff;
-    font-size:25px;
-    line-height: 5px;
-    font-weight: bold;
-}
-.nav-sub-menu ul{
-    font-size: 13px;
-    font-weight: bold;
-    line-height: 0px;
-}
-.nav-sub-menu .list-head{
-    color:gray;
-    font-size: 13px;
-}
-
-
-
 
 
 .offers{
-    background-color:#0D0D0D;
+    background-color:#1d1d1f;
     font-size:15px;
     color:#FFFFFF;
-    padding: 10px;
+    padding:70px 10px 20px 10px;
     text-align: center;
 }
 .offers span a{
     color :#1560BD;
     text-decoration: none;
+}
+
+/* section1.js Module css */
+.section1{
+    margin-top: 20px;
+}
+.section1 .part1{
+    position: relative;
+}
+.section1 .part1 .part1_text{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
 }
