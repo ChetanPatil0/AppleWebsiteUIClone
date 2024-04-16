@@ -61,9 +61,40 @@ nav{
 }
 .section1 .part1 .part1_text{
     position:absolute;
-    bottom: 0;
+    bottom: 20px;
     width: 100%;
     margin: auto;
     text-align: center;
     color: #fff;
+}
+.section1 .part1_text h2{
+    font-size: 27px;
+    line-height: 2;
+}
+.section1 .part1_text button{
+           background-color: #fff;
+           border: none;
+           padding: 10px 20px;
+           border-radius: 20px;
+           margin: 25px 5px 10px 5px;
+}
+.section1 .part1_text .btn-1 a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #000000;
+}
+.section1 .part1_text .btn-2{
+    background:none;
+}
+.section1 .part1_text .btn-2 a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.section1 .part1_text .btn-2 a:hover{
+    background-color: #fff;
+    color: #000000;
 }
