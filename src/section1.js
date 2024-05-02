@@ -17,7 +17,7 @@ let section1part2Data =[
    }
 ]
 
- function Section1Part1()
+function Section1Part1()
 {
     return(
         <>
@@ -58,15 +58,15 @@ function Section1Part2(props)
 }
 
 
-function main() {
+function section1main() {
     return (
-      <section>
+      <section className="section1">
          <Section1Part1></Section1Part1>
         { section1part2Data.map((val)=>{
             console.log(val.imgsrc);
             return(
               < Section1Part2 
-                 imgsrc={"images\hero_iphone_family_a__c7v3mvx3jv42_largetall.jpg"}
+                 imgsrc="images\hero_iphone_family_a__c7v3mvx3jv42_largetall.jpg"
                  heading={val.productname}
                  slogn={val.slogn}
                  btn1Val={val.btn1Val}
@@ -78,4 +78,4 @@ function main() {
     );
   }
 
-  export default main;
+  export default section1main;

@@ -53,7 +53,7 @@ nav{
 }
 
 /* section1.js Module css */
-section{
+.section1{
     display:block
 }
 .part1{
@@ -151,4 +151,23 @@ section{
 .part2_text .btn-2 a:hover{
     background-color: #1560BD;
     color: #fff;
+}
+
+
+
+/* Section-2 Component css */
+.section2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 10px;
+    width: 100%;
+}
+.section2 .box1 .bg_image{
+    width: 49%;
+    position: relative;
+}
+.section2 .box1 .text{
+    width: 10%;
+    position: absolute;
 }
