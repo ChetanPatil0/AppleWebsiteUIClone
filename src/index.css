@@ -160,14 +160,59 @@ nav{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px 10px;
     width: 100%;
 }
-.section2 .box1 .bg_image{
-    width: 49%;
+.box{
     position: relative;
+    max-width: 49%;
+    margin: auto;
+     display: inline-flex;
+    justify-content: center;
+   overflow: hidden;
 }
-.section2 .box1 .text{
-    width: 10%;
+.section2 .bg_image{
+    width: 100%;
+    transform: scale(1.5);
+}
+.section2 .text{
+    width: 50%;
     position: absolute;
+    top: 5vh;
+    text-align: center;
+}
+.section2 .text h1{
+    font-size: 4cqmin;
+}
+.section2 .text h2{
+    font-size: 25px;
+    margin: 10px 0px;
+    font-weight: 200;
+}
+
+.section2 .text button{
+    background-color: #1560BD;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+}
+.section2 .text .btn-1 a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+}
+.section2 .text .btn-2{
+    background:none;
+}
+.section2 .text .btn-2 a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #1560BD;
+    border: 1px solid #1560BD;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.section2 .text .btn-2 a:hover{
+    background-color: #1560BD;
+    color: #fff;
 }
