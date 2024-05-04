@@ -165,6 +165,7 @@ nav{
 .box{
     position: relative;
     max-width: 49%;
+    height: 75vh;
     margin: auto;
      display: inline-flex;
     justify-content: center;
@@ -172,13 +173,14 @@ nav{
 }
 .section2 .bg_image{
     width: 100%;
-    transform: scale(1.5);
+    transform: scaleX(1.5);
 }
 .section2 .text{
-    width: 50%;
+    width: 60%;
     position: absolute;
     top: 5vh;
     text-align: center;
+    color: red;
 }
 .section2 .text h1{
     font-size: 4cqmin;
@@ -188,6 +190,9 @@ nav{
     margin: 10px 0px;
     font-weight: 200;
 }
+
+
+
 
 .section2 .text button{
     background-color: #1560BD;
